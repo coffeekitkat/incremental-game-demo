@@ -1,6 +1,7 @@
 # incremental-game-demo
 A very basic client-server incremental game / cookie clicker / idle game. Made using [Phaser](https://github.com/photonstorm/phaser), [AdonisJS](https://adonisjs.com) and with help of [OpenAI Chat GPT (preview)](https://openai.com/chatgpt)
 
+I am asking OpenAI Chat GPT on how to make incremental game (cookie clicker / idle game). The idea of incremental game is simple, the player clicks a game element and a reward must be given. 
 
 ## Requirements
 
