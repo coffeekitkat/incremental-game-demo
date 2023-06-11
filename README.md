@@ -41,17 +41,17 @@ yarn dev
 
 ## Troubleshooting
 
-**(client) The client does not auto/live-reload on the browser**
+### **(client) The client does not auto/live-reload on the browser**
 
 The client does not auto-reload when it's open in browser. You need to manually reload the page because there is no live-reload plugin. I think it should be added
 in the rollup config. The client template was obtained from https://github.com/photonstorm/phaser3-typescript-project-template
 
-**(client) tslib error**
+### **(client) tslib error**
 
 Install `tslib` as dev dependency: `yarn add -D tslib`
 
 
-**(client) socket.io-client "default" is not exported by websocket.js**
+### **(client) socket.io-client "default" is not exported by websocket.js**
 
 Modify the production and dev rollup config (`rollup.config.dev.js` and `rollup.config.prod.js`), add `browser: true` in the `nodeResolve` plugins config
 
