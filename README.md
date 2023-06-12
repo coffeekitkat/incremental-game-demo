@@ -66,3 +66,15 @@ plugins: [
    }),
 ]
 ```
+
+Then, also add `'node_modules/socket.io-client/**'` on `commonjs` plugin config
+
+```diff
+commonjs({
+   include: [
+       'node_modules/eventemitter3/**',
+       'node_modules/phaser/**',
++      'node_modules/socket.io-client/**',
+   ],
+})
+```
